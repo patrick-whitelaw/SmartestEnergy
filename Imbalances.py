@@ -7,7 +7,7 @@ import sys
 pd.set_option('display.max_columns', 20)
 pd.set_option('display.width', 400)
 
-def Get_previous_Day_Imbalances(API_Key):
+def Get_Previous_Day_Imbalances(API_Key):
     """
     Retrieve the Imbalance settlements for previous day from BM Reports.
     Calculate the total imabalnce cost and unit rate as well as the maximum imbalance hour.
@@ -38,7 +38,7 @@ def Get_previous_Day_Imbalances(API_Key):
 
 if __name__ == "__main__":
     #Get_previous_Day_Imbalances(API_Key="a4eamu641lgqfyv")
-    Get_previous_Day_Imbalances(API_Key=sys.argv[1])
+    Get_Previous_Day_Imbalances(API_Key=sys.argv[1])
 
 
 

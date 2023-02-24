@@ -26,7 +26,7 @@ Import the Imbalances module in your Python script:
 
 Call the Get_previous_Day_Imbalances function with your API Key for BM Reports as a parameter:
 
-	imbalance_data = Imbalances.Get_previous_Day_Imbalances(<API_Key>)
+	imbalance_data = Imbalances.Get_Previous_Day_Imbalances(<API_Key>)
 
 This will print details about the previous days imbalance data and a provide a graph.
 The imbalance_data variable will contain the imbalances dataframe returned by the function,
