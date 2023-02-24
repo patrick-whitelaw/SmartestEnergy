@@ -2,6 +2,7 @@ import datetime as dt
 import pandas as pd
 import Imbal_Analysis
 import Imbal_Processing
+import sys
 
 pd.set_option('display.max_columns', 20)
 pd.set_option('display.width', 400)
@@ -36,8 +37,8 @@ def Get_previous_Day_Imbalances(API_Key):
 
 
 if __name__ == "__main__":
-    Get_previous_Day_Imbalances(API_Key="a4eamu641lgqfyv")
-    #Get_previous_Day_Imbalances(API_Key=sys.argv[1])
+    #Get_previous_Day_Imbalances(API_Key="a4eamu641lgqfyv")
+    Get_previous_Day_Imbalances(API_Key=sys.argv[1])
 
 
 
