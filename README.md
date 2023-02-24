@@ -35,3 +35,6 @@ containing the merged pricing, quantity and cost information which you can then 
 Alternately the Imbalances file can be run directly like so
 
 	imbalances.py <API_Key>
+
+Future investigations into determining the pattern between the consistency/model of the imbalance unit price increase when the imbalance is in surplus compared to when there is a defeceit, 
+as there is a clear difference between the two.
